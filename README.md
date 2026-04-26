@@ -80,7 +80,7 @@ geometric-biosecurity/
 ├── results/
 │   ├── svd_severity_results.json        # Experiment 1 metrics
 │   ├── final_results.json               # Experiment 2 metrics
-│   └── figures/                         # All result plots
+│   └── figures                          # All result plots
 ├── docs/
 │   └── submission.md            # Full competition submission writeup
 └── README.md
