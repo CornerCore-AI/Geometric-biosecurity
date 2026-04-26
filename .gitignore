@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.env
+
+# Large data files — download via data_fetcher.py
+poc_cache/
+*.npy
+*.pkl
+dna_dataset_v2.csv
+fragment_dataset_small.csv
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Results figures (regenerate with experiment scripts)
+results/figures/
+results/exp2_records.json
+results/exp2_embeddings_*.npy
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+*.env
+secrets.py
